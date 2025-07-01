@@ -1,9 +1,9 @@
 # 2D-Topological-model
 A model for imaging scrambling in 2D topological insulators.
 
-How to use the program:
-
 Disclaimer: All the commands are only tested and confirmed to work on Linux so far. Windows users may need to modify them accordingly.
+
+How to use the program:
 
 The program requires numpy, matplotlib and torch python libraries. It is run through the command line by writing the name of the main file followed by the correct positional arguments and options. The list of the arguments and options  can be displayed through the --help option like so:
 	
