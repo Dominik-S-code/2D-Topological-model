@@ -67,5 +67,5 @@ Notes and possible issues:
 - The input parameters of the system not manipulated by the command line options can be changed by modifying the Input.py file, especially the j00 variable containing the coordinates of the initial perturbation.
 - The outputs will be saved in the 'out' folder. The videos and solitary images will be saved to the folder directly while series of images will have separate folders created within the 'out' directory.
 - The Hamiltonian can be modified to make an inhomogenous system, add disorder or create multiple neighboring systems. In this case, the line 
-# HK2D = self._modify_Hamiltonian(HK2D, input) 
+HK2D = self._modify_Hamiltonian(HK2D, input) 
 in the Initializer_cpu.py file must be uncommented and the _modify_Hamiltonian function must be modified accordingly to the desired changes.
